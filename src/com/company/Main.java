@@ -15,7 +15,7 @@ public class Main
         System.out.print("Podaj liczbę y: ");
         y = scanner.nextInt();
 
-        for (x; x >= y; x++)
+        for (x; x <= y; x++)
         {
             System.out.println(x);
         }
