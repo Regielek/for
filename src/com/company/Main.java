@@ -15,9 +15,12 @@ public class Main
         System.out.print("Podaj liczbę y: ");
         y = scanner.nextInt();
 
-        for (x; x <= y; x++)
+        for (int z = x; z <= y; z++)
         {
-            System.out.println(x);
+            if (1 == z % 2)
+            {
+                System.out.println(z);
+            }
         }
     }
 }
